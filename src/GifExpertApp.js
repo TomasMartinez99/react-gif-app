@@ -14,7 +14,7 @@ const GifExpertApp = () => {
         <div>
             <h2 className="titulo">Buscador de Gifs</h2>
             <AddCategory setCategories={setCategories} />
-            <p>Resultados de tú búsqueda:</p>
+            <p className="p-titulo">Resultados de tú búsqueda:</p>
 
             <ul>
                 {

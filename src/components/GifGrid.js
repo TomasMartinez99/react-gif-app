@@ -8,7 +8,7 @@ const GifGrid = ( {category} ) => {
 
     return (
         <>
-            <h3> {category} </h3>
+            <h3 className="categoria"> {category} </h3>
 
             {loading && <p>Cargando...</p>}
 
