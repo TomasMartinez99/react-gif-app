@@ -3,7 +3,7 @@ import AddCategory from './components/AddCategory';
 import GifGrid from './components/GifGrid';
 
 const GifExpertApp = () => {
-    const [categories, setCategories] = useState( ['Boca Juniors'] );
+    const [categories, setCategories] = useState([]);
 
     /* const handleAdd = () => { */
         /* setCategories( cats => [...cats, 'Los vengadores'] ); */

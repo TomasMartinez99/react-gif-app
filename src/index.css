@@ -71,3 +71,7 @@ body {
 .categoria {
     color: rgb(0, 119, 255);
 }
+
+ul {
+    padding: 0px;
+}
