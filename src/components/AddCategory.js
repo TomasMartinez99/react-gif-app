@@ -24,8 +24,10 @@ const AddCategory = ( {setCategories} ) => {
     return (
         <form onSubmit={ handleSubmit }>
             <input 
+                className="buscador"
                 type="text"
                 value={inputValue}
+                placeholder="Buscá tu Gif"
                 onChange={ handleInputChange }
             />
         </form>

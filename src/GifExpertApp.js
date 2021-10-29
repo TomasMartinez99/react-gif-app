@@ -12,10 +12,9 @@ const GifExpertApp = () => {
 
     return (
         <div>
-            <h2>GifExpertApp</h2>
+            <h2 className="titulo">Buscador de Gifs</h2>
             <AddCategory setCategories={setCategories} />
-
-            <hr />
+            <p>Resultados de tú búsqueda:</p>
 
             <ul>
                 {
